@@ -1,0 +1,24 @@
+Try using TreeMap instead of HashMap. Does it make any difference?
+Using a TreeMap, the program still produces the correct and same outcome. The run time may vary, but overall the program still
+works and runs.
+
+
+What happens if you invoke countWords multiple times for different String iterators?
+The string iterators would still be added to the same map, it would also still print all the frequencies from the words
+from each list that may be added.
+
+
+What crucial role does the Iterator abstraction play in making WordCounter testable?
+It allows us to put elements, strings in this case, into the map. It also makes the map testable by making the map not empty.
+
+Approximate frequencies for Les Misrables(top 10)
+the=33278
+of=18012
+and=12845
+a=12450
+to=12449
+in=9386
+was=7788
+that=6601
+he=6202
+his=5529

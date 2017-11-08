@@ -11,7 +11,7 @@ from each list that may be added.
 What crucial role does the Iterator abstraction play in making WordCounter testable?
 It allows us to put elements, strings in this case, into the map. It also makes the map testable by making the map not empty.
 
-Approximate frequencies for Les Misrables(top 10)
+Approximate frequencies for Les Misrables(top 10):
 the=33278
 of=18012
 and=12845

@@ -29,7 +29,7 @@ public class TestWordCounter {
   @Test
   public void testGetCountEmpty() {
 
-    // TODO verify that the SUT initially returns an empty map
+    // TODO verify that the SUT initially returns an empty map.
     assertEquals(wc.getCounts(), Collections.emptyMap());
   }
 
@@ -37,13 +37,12 @@ public class TestWordCounter {
   public void testGetCountNonEmpty() {
 
     // TODO run the SUT on a specific String iterator with some repeated words,
-      // then use assertions to verify the correct counts
-      wc.countWords(Arrays.asList("asdf", "oiu", "qwer").iterator());
-      // do this for at least two words in the iterator and two not in the iterator
-      assertEquals(wc.getCount("asdf"), 1  );
-      assertEquals(wc.getCount("oiu"), 1  );
-      assertEquals(wc.getCount("chris"), 0  );
-      assertEquals(wc.getCount("tyler"), 0 );
-
+    // then use assertions to verify the correct counts
+    wc.countWords(Arrays.asList("asdf", "oiu", "qwer").iterator());
+    // do this for at least two words in the iterator and two not in the iterator
+    assertEquals(wc.getCount("asdf"), 1);
+    assertEquals(wc.getCount("oiu"), 1);
+    assertEquals(wc.getCount("chris"), 0);
+    assertEquals(wc.getCount("tyler"), 0);
   }
 }
